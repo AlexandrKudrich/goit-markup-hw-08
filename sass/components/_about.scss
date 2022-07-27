@@ -2,6 +2,7 @@
     @extend %visually-hidden;
 }
 
+
 .benefits-item__icon-box {
     display: flex;
     align-items: center;
@@ -12,6 +13,7 @@
     background: #F5F4FA;
     border-radius: 4px;
 }
+
 
 .benefits-item__title {
     margin-bottom: 10px;
@@ -36,6 +38,7 @@
     }
 }
 
+
 @media screen and (min-width: 768px) {
     .about__list {
         display: flex;
@@ -51,6 +54,7 @@
             margin-right: 30px;
         }
     
+        
         &:not(:nth-last-child(-n + 2)) {
             margin-bottom: 30px;
         }

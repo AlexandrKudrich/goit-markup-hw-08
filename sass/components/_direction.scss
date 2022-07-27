@@ -8,9 +8,11 @@
     }
 }
 
+
 .direction__title {
     @extend %studioTitle;
 }
+
 
 .direction__list {
     display: flex;

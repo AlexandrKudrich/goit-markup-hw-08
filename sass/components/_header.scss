@@ -2,6 +2,7 @@
     border-bottom: 1px solid #ececec;
 }
 
+
 .button-menu,
 .header__social-networks {
     display: none;
@@ -12,11 +13,14 @@
     align-items: center;    
 }
 
+
+
 // START MOBILE PART
 
 @media screen and (max-width: 767px) {
     .header__container {        
         position: relative;
+
 
         justify-content: space-between;
         padding: 10px;
@@ -204,6 +208,8 @@
         margin-right: 10px;
     }    
 }
+
+
 
 // END DESKTOP PART
 

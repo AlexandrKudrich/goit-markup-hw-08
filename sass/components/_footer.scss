@@ -13,9 +13,11 @@
 
 // REQUISITES
 
+
 .address {
     margin-top: 20px;    
 }
+
 
 .address-list__item:not(.address-list__item:last-child) {
     margin-bottom: 8px;
@@ -67,6 +69,7 @@
     background-color: transparent;
 }
 
+
 ::placeholder {
     font-size: 16px;
     line-height: 1.25;    
@@ -90,6 +93,7 @@
 .subscribe-form__icon {
     margin-left: 10px;
 }
+
 
 @media screen and (max-width: 767px) {
 
@@ -116,6 +120,7 @@
         margin-bottom: 20px;      
     }
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .footer__tablet-thumb {

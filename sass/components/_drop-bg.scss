@@ -13,11 +13,13 @@
     @include transitionTwo(opacity, visibility);   
 }
 
+
 .drop-bg--is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;      
 }
+
 
 .modal {
     position: absolute;
