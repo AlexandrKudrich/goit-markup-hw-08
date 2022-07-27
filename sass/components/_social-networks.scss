@@ -1,0 +1,32 @@
+.social-networks {
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-networks__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+
+    fill: #AFB1B8;
+}
+
+@media screen and (min-width: 1200px){
+    .social-networks__link {
+        @include transitionTwo(background-color, fill);
+
+        &:hover,
+        &:focus {
+            background-color: $accent-color;
+            fill: $white;
+        }
+    }
+}    

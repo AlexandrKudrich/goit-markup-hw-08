@@ -1,0 +1,180 @@
+.footer {    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    background-color: #2F303A;
+}
+
+.footer__container {
+    display: blok;
+    text-align: center;
+    
+}
+
+// REQUISITES
+
+.address {
+    margin-top: 20px;    
+}
+
+.address-list__item:not(.address-list__item:last-child) {
+    margin-bottom: 8px;
+}
+
+.address-list__link {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+}
+
+.address-list__link--location {
+    color: $white;
+}
+
+// ADD-US IN SOCIAL NETWORKS
+
+.add-us__title,
+.subscribe__title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    color: $white;
+}
+
+.footer__social-networks {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    fill: $white;
+}
+
+
+// SUBSCRIBE FORM
+
+// title added to .add-us__title
+
+.subscribe-form__input {    
+    height: 50px;
+    padding: 15px 16px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.3);        
+    border-radius: 4px;
+
+    color: $white;
+    background-color: transparent;
+}
+
+::placeholder {
+    font-size: 16px;
+    line-height: 1.25;    
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-form__button {
+    @extend %button;
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+
+    padding-right: 28px;
+    padding-left: 29px;
+}
+
+.subscribe-form__icon {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .requisites {
+        margin-bottom: 60px;
+    }    
+}
+
+@media screen and (max-width: 1199px) {
+    
+    .footer__tablet-thumb {
+        margin-bottom: 60px;
+    }
+
+    .subscribe-form {
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+
+    .subscribe-form__input {
+        display: inline-block;
+        width: 100%;       
+        margin-bottom: 20px;      
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer__tablet-thumb {
+        display: flex;
+        justify-content: center;
+    }
+
+    .requisites {
+        margin-right: 166px;
+    }
+
+    .subscribe-form__input {
+        width: 450px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .footer__container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .requisites {
+        margin-right: 70px;
+    }
+
+    .address-list__item:not(.address-list__item:last-child) {
+        margin-bottom: 9px;
+    }
+
+    .add-us {
+        width: 206px;
+        height: 80px;        
+    }
+
+    .subscribe-form {
+        display: flex;
+    }
+
+    .subscribe-form__input {
+        width: 358px;       
+
+        margin-right: 10px;     
+    }
+    
+    .footer__tablet-thumb {
+        display: flex;
+        align-items: baseline;
+
+        margin-right: 93px;
+        
+    }
+    
+    .requisites {
+        margin-right: 70px;
+    }
+}
+
+
+
+
